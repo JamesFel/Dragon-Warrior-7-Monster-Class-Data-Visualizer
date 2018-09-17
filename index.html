@@ -122,7 +122,7 @@
             let images = request.response.split('\n');
             for (let i = 0; i < images.length;i++)
             {
-                let monster = images[i].slice(0,-5);
+                let monster = images[i].split('.')[0].trim();
                 if(monster.length > 0)
                 {
                     monster_list[monster] = "<img src='visualized%20data\\" + images[i] + "' class='monster-png'>";
