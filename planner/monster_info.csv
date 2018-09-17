@@ -1,0 +1,35 @@
+Monster,Fireball,Flame,Explosion,Cold,Wind,Electric,Death,Banish,Def Down,Steal MP,Sleep,Surround,Confuse,Mute,Fire Breath,Cold Breath,Poison,Paralysis,Strength,Agility,Guard,Int,Style,HP,MP,1,2,3,4,5,6,7,8,b1,b2,b3,b4,b5,b6,b7,b8,chest,casino,c1,c2,c3,p1,p2,p3,Mastery Bonus
+Slime,0,0,0,0,0,0,2,3,1,0,2,2,2,2,0,0,2,2,-.2,.05,-.2,-.3,-.2,-.2,-.2,,,SideStep,,ConfuHit,,,Retaliate,0,7,15,33,50,72,90,120,TRUE,TRUE,DrakSlime,,,,,,
+Hork,0,0,0,1,1,0,2,3,0,0,2,2,2,2,0,0,2,2,0,-.3,-.1,-.5,-.6,.1,-.1,,,PoisonGas,,CurseSong,,,K.O.Dance,0,9,16,34,52,75,99,130,TRUE,FALSE,CurseLamp,DeadNoble,,,,,
+EvlTurtle,1,1,1,1,1,1,2,3,0,0,2,2,2,2,0,0,2,2,.10,0,.2,-.3,-.3,-.2,-.1,,Upper,,Increase,,TwinHits,Ramming,Backflip,0,10,18,40,60,85,100,125,TRUE,TRUE,SkyDevil,,,,,,
+JewelBag,1,1,1,1,1,1,2,3,0,1,2,2,2,2,1,1,2,2,-.20,.20,.10,.10,.05,-.10,0,,LureDance,,Flash,,PanicAll,,Beat,0,12,20,45,72,100,130,160,FALSE,FALSE,DeadNoble,HellGiant,,,,,
+Florajay,0,0,0,0,1,0,2,3,0,0,2,2,2,2,0,0,2,2,-.10,.10,-.20,.05,0,-.10,.10,,Heal,,,SleepAir,,,HealSong,0,11,22,34,55,80,120,140,TRUE,FALSE,SkyDevil,Rosevine,,,,,
+Wyvern,1,0,1,0,0,0,2,3,0,1,2,2,2,2,0,0,2,2,-.05,.05,-.15,.05,-.05,-.10,0,,Blaze,,FireAir,,Blazemore,,BlazeAir,0,13,30,45,62,90,125,150,TRUE,TRUE,SkyDevil,,,,,,
+Healer,0,0,0,0,0,0,2,3,1,1,2,2,2,2,0,0,2,2,-0.30,-0.20,-0.10,0.20,-0.20,-0.20,0.20,,Heal,,HealMore,,HealAll,,HealUs,0,8,28,42,70,92,133,160,TRUE,FALSE,DeadNoble,,,,,,
+LizardMan,0,0,0,0,1,0,2,3,1,0,2,3,2,2,0,0,2,2,-0.10,0.05,0.00,-0.10,-0.10,-0.10,-0.10,,Sap,,Defense,,TwinHits,,RainSlash,0,14,39,50,68,93,127,145,FALSE,FALSE,DrakSlime,Gerion,,,,,
+Bombcrag,1,1,1,1,1,0,2,3,1,0,2,2,2,2,1,1,2,2,0.05,-0.50,0.20,-0.30,-0.40,0.10,-0.30,,Increase,Giggle,ChargeUp,,Sacrifice,,Meditate,0,16,32,48,75,99,123,152,FALSE,TRUE,Golem,,,,,,
+Lipsy,0,0,0,0,0,2,2,3,0,0,2,2,2,2,0,0,2,2,-0.20,0.05,-0.10,-0.20,-0.30,-0.20,0.00,,LushLicks,,SickLick,,SleepAir,,OddDance,0,13,30,41,63,88,115,132,TRUE,FALSE,Varanus,CosmoBog,,,,,
+BoltRat,0,0,0,0,1,3,2,3,0,0,2,2,2,2,0,0,2,2,-0.10,0.10,0.10,-0.30,-0.10,-0.10,-0.10,,,Flash,,Firebal,,,Lightning,0,12,25,47,67,92,128,156,FALSE,FALSE,Andreal,ProtoMech,,,,,
+Mimic,1,1,1,1,1,1,2,3,0,1,2,2,2,2,1,1,2,2,0.10,0.00,0.20,-0.20,-0.30,-0.20,-0.10,,SleepAir,,SandStorm,,Beat,,Defeat,0,18,36,50,80,105,137,179,TRUE,TRUE,CurseLamp,EvilWell,,,,,
+Berserker,0,0,0,0,0,0,2,3,0,0,2,3,3,2,0,0,2,2,0.10,0.10,-0.30,-0.40,-0.20,0.00,0.00,,SquallHit,,FreSlash,,RainSlash,,Massacre,0,15,34,52,72,100,135,150,TRUE,TRUE,EvilWell,Golem,,,,,
+Dumbira,0,0,0,0,0,0,2,3,0,0,2,3,3,2,0,0,2,2,0.1,-0.1,-0.1,-0.2,-0.25,-0.1,-0.1,,VacuSlash,,HealMore,PsycheUp,,SquallHit,2EdgeHit,0,14,32,49,77,103,128,155,FALSE,FALSE,Varanus,Gerion,,,,,
+Andreal,0,0,0,1,1,0,2,3,0,0,2,2,2,2,2,1,2,2,0.15,-0.1,0.1,0,0,0.2,-0.2,FireAir,,BlazeAir,,IceAir,,,Scorching,0,14,30,55,75,110,140,180,FALSE,TRUE,GigaMute,Esterk,,Boltrat,Gerion,,Strength +10
+CurseLamp,0,1,1,1,1,0,2,3,0,1,2,2,2,2,0,0,2,2,-0.10,0.15,0.05,0.05,-0.10,-0.20,0.20,StopSpell,,PaniDance,,SnowStorm,,Ramming,Summon,0,15,35,60,80,120,145,190,TRUE,FALSE,Budoo,,,Hork,Mimic,,Agility +15
+Varanus,0,0,0,0,2,0,2,3,1,0,2,2,2,2,0,0,3,2,0.15,0.00,-0.10,-0.20,-0.30,0.10,-0.20,,IceAir,,Ramming,,Scorching,,IceStorm,0,13,26,52,83,130,150,200,FALSE,FALSE,GigaMute,,,Dumbira,EvlTurtle,Lipsy,Strength +15
+HellGiant,0,0,1,0,1,1,2,3,2,2,2,2,2,2,2,0,2,2,0.00,0.00,0.10,0.00,0.05,0.10,-0.20,Boom,,HealUs,Flash,,BlazeMore,,Explodet,0,17,38,72,90,135,148,185,FALSE,TRUE,Budoo,,,JewelBag,SkyDevil,,MP +15
+CosmoBog,1,1,0,1,1,1,2,3,0,2,2,2,2,2,0,2,2,2,-0.05,0.10,0.05,0.10,-0.10,0.05,0.10,,Flash,BackFlip,,Bounce,,BlazeMore,Zap,0,22,44,80,110,140,170,200,FALSE,TRUE,WoePriest,,,EvilWell,Lipsy,,Guard +10
+DrakSlime,0,1,1,0,0,0,2,3,0,1,2,2,2,2,1,1,2,2,-0.05,0.05,0.10,-0.10,0.00,-0.10,-0.05,,FireAir,FrigidAir,Ironize,,BlazeAir,IceAir,BeDragon,,10,23,40,70,100,130,150,FALSE,TRUE,PlatKing,,,LizardMan,Slime,,Agility +10
+SkyDevil,1,1,1,1,0,1,2,3,2,2,2,2,2,2,0,1,2,2,0.05,0.10,0.00,-0.10,0.10,0.05,0.00,,BirdSlash,,Vivify,,BackFlip,Vacuum,FalconCut,0,18,40,65,92,130,160,190,FALSE,FALSE,RainHawk,HellGiant,,EvlTurtle,Florajay,Wyvern,Agility +20
+Gerion,0,0,0,1,1,0,2,3,1,1,2,2,2,2,1,0,2,2,0.10,0.05,0.05,-0.10,-0.05,0.05,-0.10,Infernos,Surround,,Infermore,,Howl,,Infermost,0,16,35,60,95,125,150,180,FALSE,TRUE,Andreal,,,Dumbira,BoltRat,,Strength +10
+DeadNoble,0,0,0,2,0,0,3,1,0,0,3,3,2,2,0,2,2,2,0.00,0.00,-0.10,0.05,-0.10,0.00,0.10,Icebolt,,SnowStorm,PalsyAir,,DefeatMax,,Blizzard,0,12,32,64,93,131,162,195,FALSE,FALSE,WoePriest,,,JewelBag,Hork,Healer,MP +15
+ProtoMech,1,1,1,1,1,0,2,3,0,0,2,3,2,2,0,0,2,3,0.10,-0.05,0.10,-0.10,-0.20,0.00,-0.10,,MagicWall,,MetalCut,,QuadHits,,EvilSlash,0,15,36,72,100,137,158,170,FALSE,FALSE,EvilMech,,,BoltRat,Golem,,Guard +10
+Golem,1,1,1,1,1,1,2,3,0,1,2,2,2,2,0,0,2,2,0.20,-0.30,0.10,-0.40,-0.10,0.10,-0.20,,ChargeUp,Guardian,Crack,,Quake,,RockThrow,0,11,28,58,88,105,145,160,FALSE,FALSE,EvilMech,ProtoMech,,Berserker,Bombcrag,,Strength +15
+EvilWell,0,0,0,2,2,0,2,3,1,1,2,2,2,2,0,2,2,2,0.10,0.10,0.10,-0.30,-0.30,0.10,-0.20,CragThrow,WarCry,BoxerDance,ParryPass,KnockDown,,WindBeast,Magma,0,19,41,63,93,123,150,175,FALSE,TRUE,Rosevine,CosmoBog,,Berserker,Mimic,,Guard +10
+WoePriest,1,2,2,2,1,0,2,1,0,0,2,2,2,2,0,2,2,2,0.00,0.00,0.10,0.30,0.10,-0.10,0.30,MagicBack,Vivify,Firebolt,DefeatMax,Explodet,Blizzard,Blazemost,MultiCut,0,23,43,70,100,130,160,210,FALSE,FALSE,,,,CosmoBog,DeadNoble,,Intelligence +20
+Budoo,1,1,1,1,1,1,2,3,2,2,2,2,2,2,0,0,2,2,0.30,0.10,-0.05,0.00,-0.10,0.10,0.00,,TwinHits,TakeMagic,Barrier,Chance,CallArmy,FairWind,WhiteFire,0,25,50,80,135,165,173,220,FALSE,FALSE,,,,CurseLamp,HellGiant,,Strength +20
+Rosevine,0,1,0,3,2,0,2,3,0,0,2,2,2,2,0,0,2,2,0.20,0.10,-0.10,0.05,0.05,-0.05,0.00,,PalsyAir,Poisonfog,SleepAll,Barrier,EeirieFog,,MegaMagic,0,20,45,68,98,140,180,240,FALSE,FALSE,RainHawk,,,Florajay,EvilWell,,Appearance +20
+GigaMute,0,0,0,0,0,0,2,3,1,2,3,3,2,2,1,1,2,2,0.30,-0.10,0.05,-0.10,-0.30,0.20,-0.10,,PsycheUp,Poisonfog,,IceStorm,,Thordain,WhiteAir,0,21,42,65,110,153,200,280,FALSE,FALSE,,,,Andreal,Varanus,,Strength +20
+PlatKing,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,-0.10,0.20,1.00,-0.20,0.10,-0.60,0.00,Ironize,HealUs,Ramming,Revive,HealUsAll,,Change,BigBang,0,28,48,83,125,170,250,350,FALSE,FALSE,,,,DrakSlime,Esterk,,Guard +255
+Esterk,2,2,2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,0.20,0.10,0.10,0.15,0.10,0.10,0.10,BoltSlash,MetalCut,FireSlash,IceStorm,IceSlash,DeMagic,,GigaSlash,0,30,60,90,130,180,230,300,FALSE,FALSE,PlatKing,,,Andreal,EvilMech,,Guard +20
+RainHawk,0,2,2,3,1,2,2,3,1,2,2,2,1,2,0,0,2,2,0.10,0.20,0.00,0.30,0.30,0.00,0.20,Flash,Firebolt,FairWind,WindBeast,Scorching,MagicBack,WhiteFire,HellFlame,0,27,54,75,115,160,200,250,FALSE,TRUE,,,,SkyDevil,Rosevine,,Appearance +20
+EvilMech,2,2,2,2,2,0,3,3,2,3,3,3,3,3,1,1,2,2,0.30,0.10,0.20,-0.20,0.00,0.10,-0.10,Defense,TwinHits,RainSlash,BackFlip,Zap,FalconCut,Massacre,Hellblast,0,25,50,80,125,190,240,310,FALSE,FALSE,Esterk,,,ProtoMech,Golem,,Guard +20

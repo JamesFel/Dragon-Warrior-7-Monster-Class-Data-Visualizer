@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Warrior 7 Monster Visualizer</title>
+
+    <style>
+        #first {grid-area:first}
+        #second {grid-area:second}
+        #third {grid-area:third}
+        #fourth {grid-area:fourth}
+        #fifth {grid-area:fifth}
+        #sixth {grid-area:sixth}
+        #seventh {grid-area:seventh}
+        #eighth {grid-area:eighth}
+        #ninth {grid-area:ninth}
+        #tenth {grid-area:tenth}
+        #eleventh {grid-area:eleventh}
+        #twelfth {grid-area:twelfth}
+
+        #side-bar {grid-area: side;}
+        #side-bar > select{
+            font-size:large;
+            width: 45%;
+        }
+
+        #monster-div{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-template-areas:
+                'side first first second second'
+                'side third third fourth fourth'
+                'side fifth fifth sixth sixth'
+                'side seventh seventh eighth eighth'
+                'side ninth ninth tenth tenth'
+                'side eleventh eleventh twelfth twelfth';
+            grid-gap: 1rem;
+            padding: 1ch;
+            max-width: 250ch;
+        }
+
+        #monster-div > div{
+            border: 1px solid black;
+            max-width: 100ch;
+        }
+
+        #monster-div > div > img{max-width: 100ch;}
+
+    </style>
+</head>
+<body>
+    <div id="monster-div">
+        <div id="side-bar">
+            <select id="first-select" onchange="load_monster_png('first', this.value);"></select>
+            <select id="second-select" onchange="load_monster_png('second', this.value);"></select>
+            <select id="third-select" onchange="load_monster_png('third', this.value);"></select>
+            <select id="fourth-select" onchange="load_monster_png('fourth', this.value);"></select>
+            <select id="fifth-select" onchange="load_monster_png('fifth', this.value);"></select>
+            <select id="sixth-select" onchange="load_monster_png('sixth', this.value);"></select>
+            <select id="seventh-select" onchange="load_monster_png('seventh', this.value);"></select>
+            <select id="eighth-select" onchange="load_monster_png('eighth', this.value);"></select>
+            <select id="ninth-select" onchange="load_monster_png('ninth', this.value);"></select>
+            <select id="tenth-select" onchange="load_monster_png('tenth', this.value);"></select>
+            <select id="eleventh-select" onchange="load_monster_png('eleventh', this.value);"></select>
+            <select id="twelfth-select" onchange="load_monster_png('twelfth', this.value);"></select>
+
+            <p>
+                Please note that the listed casino odds are not accurate.
+                They're close enough to be useful, but not actually accurate.
+            </p>
+        </div>
+
+        <div id="first">
+            <img src="visualized%20data\platking.png" class="monster-png">
+        </div>
+        <div id="second">
+            <img src="visualized%20data\esterk.png" class="monster-png">
+        </div>
+        <div id="third">
+            <img src="visualized%20data\evilmech.png" class="monster-png">
+        </div>
+        <div id="fourth">
+            <img src="visualized%20data\andreal.png" class="monster-png">
+        </div>
+        <div id="fifth">
+            <img src="visualized%20data\protomech.png" class="monster-png">
+        </div>
+        <div id="sixth">
+            <img src="visualized%20data\gerion.png" class="monster-png">
+        </div>
+        <div id="seventh">
+            <img src="visualized%20data\golem.png" class="monster-png">
+        </div>
+        <div id="eighth">
+            <img src="visualized%20data\boltrat.png" class="monster-png">
+        </div>
+        <div id="ninth">
+            <img src="visualized%20data\berserker.png" class="monster-png">
+        </div>
+        <div id="tenth">
+            <img src="visualized%20data\bombcrag.png" class="monster-png">
+        </div>
+        <div id="eleventh">
+            <img src="visualized%20data\drakslime.png" class="monster-png">
+        </div>
+        <div id="twelfth">
+            <img src="visualized%20data\dumbira.png" class="monster-png">
+        </div>
+    </div>
+
+    <script>var monster_list = {};</script>
+    <script src="dropdowns.js">
+    </script>
+    <script>
+        var request = new XMLHttpRe quest();
+        request.open('GET', "images.txt");
+        request.onloadend = function()
+        {
+            let images = request.response.split('\n');
+            for (let i = 0; i < images.length;i++)
+            {
+                let monster = images[i].slice(0,-5);
+                if(monster.length > 0)
+                {
+                    monster_list[monster] = "<img src='visualized%20data\\" + images[i] + "' class='monster-png'>";
+                }
+            }
+            populate_dropdowns(monster_list);
+        }
+        request.send()
+    </script>
+
+</body>
+<footer>
+    <div>Chest icon made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    <div>Game sprites ripped by <a href="http://www.rpglegion.com/sprites/dw7/index.htm">RPG Legion</a></div>
+    <div>Majority of Aster graph and bar graph code provided by <a href="https://www.r-graph-gallery.com/296-add-labels-to-circular-barplot/">The R Graph Gallery.</a> </div>
+    <div>Casino information provided by <a href="https://gamefaqs.gamespot.com/ps/197152-dragon-warrior-vii/faqs/37138">Csabi_B</a></div>
+    <div>Other data provided by <a href="https://gamefaqs.gamespot.com/ps/197152-dragon-warrior-vii/faqs/15649">DShort</a>,
+        <a href="https://gamefaqs.gamespot.com/ps/197152-dragon-warrior-vii/faqs/44895"> Leebot, Ian Kelly</a>,
+        or <a href="http://shrines.rpgclassics.com/psx/dw7/images/monsterclass.gif">RPG Classics Dragon Quest 7 Shrine</a> </div>
+</footer>
+</html>
